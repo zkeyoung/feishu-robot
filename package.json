@@ -1,6 +1,6 @@
 {
   "name": "feishu-robot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "feishu message robot for group chat",
   "main": "index.js",
   "scripts": {
