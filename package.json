@@ -1,0 +1,36 @@
+{
+  "name": "feishu-robot",
+  "version": "1.0.0",
+  "description": "feishu message robot for group chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhangky01/feishu-robot.git"
+  },
+  "keywords": [
+    "feishu",
+    "robot",
+    "message",
+    "chat",
+    "group",
+    "api"
+  ],
+  "author": {
+    "name": "KaiYang Zhang",
+    "email": "iszhangky@163.com"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangky01/feishu-robot/issues"
+  },
+  "homepage": "https://github.com/zhangky01/feishu-robot#readme"
+}
