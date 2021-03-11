@@ -17,8 +17,10 @@ Rebot.sendText('hello, world').then(data => {
     console.log(err);
 }
 ```
-## 说明
-* 目前仅支持发送文本信息
+## API说明
+* Rebot.sendText(text: string) 发送文本信息
+* Rebot.sendRickText(title: string, texts[][], lang?:string) 发送富文本信息， texts是二维数组，每个元素代表一行数据。格式需要和[飞书格式](https://open.feishu.cn/document/ukTMukTMukTM/uMDMxEjLzATMx4yMwETM#c48c9c2a)匹配
+* Rebot.send(data: object) 支持所有消息，格式需要飞书匹配。
 
 ## 配置参数
 ```js
