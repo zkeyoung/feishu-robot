@@ -30,8 +30,14 @@ require('feishu-robot')(option);
 * Rebot.sendRickText(title: string, texts[][], lang?:string) 发送富文本信息， texts是二维数组，每个元素代表一行数据。格式需要和[飞书格式](https://open.feishu.cn/document/ukTMukTMukTM/uMDMxEjLzATMx4yMwETM#c48c9c2a)匹配
 * Rebot.send(data: object) 支持所有消息，格式需要飞书匹配。
 
-
 ## webhook参数获取方式
+1. 随便在哪一个飞书群聊里，点击设置
+2. 点击群机器人
+3. 添加机器人
+4. 选择添加自定义机器人（通过webhook将自定义服务的消息推送至飞书）
+5. 设置机器人名称、描述，点击下一步
+6. 点击复制获取webhook地址，点击签名校验复制secret。点击完成
+### webhook获取图片教程（**多图预警**）
 ![image](https://user-images.githubusercontent.com/38270459/111720692-66bd7c00-8899-11eb-9ba5-0cd94753581b.png)
 ![image](https://user-images.githubusercontent.com/38270459/111721384-b94b6800-889a-11eb-82ca-e441250f8d9c.png)
 ![image](https://user-images.githubusercontent.com/38270459/111721494-f7488c00-889a-11eb-9e0c-60b0da76a7f3.png)
